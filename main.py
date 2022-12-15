@@ -38,8 +38,8 @@ algoritma=st.sidebar.selectbox(
 )
 
 st.write('## 2. About Dataset (Heart Failure)')
-data_hf = pd.read_csv("https://raw.githubusercontent.com/AmandaCaecilia/datamining/main/heart_failure_clinical_records_dataset.csv")
-st.write("Dataset Heart Failure : (https://raw.githubusercontent.com/AmandaCaecilia/datamining/main/heart_failure_clinical_records_dataset.csv) ", data_hf)
+data_hf = pd.read_csv("https://raw.githubusercontent.com/AchMaulidWahyudi/datamining/main/heart_failure_clinical_records_dataset.csv")
+st.write("Dataset Heart Failure : (https://raw.githubusercontent.com/AchMaulidWahyudi/datamining/main/heart_failure_clinical_records_dataset.csv) ", data_hf)
 
 st.write('Dataset Description :')
 st.write('1. age: Age of the patient')
